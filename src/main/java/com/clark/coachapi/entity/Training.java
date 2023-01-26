@@ -13,5 +13,6 @@ public class Training {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long trainingId;
+    //
 
 }
