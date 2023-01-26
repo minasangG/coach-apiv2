@@ -3,7 +3,9 @@ package com.clark.coachapi.entity;
 import com.clark.coachapi.entity.Enums.TrainingAvailability;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import java.util.List;
 //import javax.persistence.*;
@@ -12,6 +14,8 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "Coach")
 
 public class Coach {
