@@ -1,5 +1,6 @@
 package com.clark.coachapi.service.Implementations;
 
+import com.clark.coachapi.repository.CoachRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -7,5 +8,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class CoachServiceImplementation {
 
-    Private
+    private CoachRepository coachRepository;
+
 }
