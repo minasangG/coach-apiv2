@@ -27,7 +27,7 @@ public class Coach {
             allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "coach_sequence")
     @Column(name = "id", nullable = false)
-    private Long id;
+    private Long coachId;
 
     @NotBlank(message = "First Name should not be blank")
     @Column(name = "coach_first_name")
