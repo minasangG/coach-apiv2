@@ -43,6 +43,6 @@ public class Coach {
     @Enumerated(value = EnumType.STRING)
     private TrainingAvailability availability;
 
-    Set<Coach>
+    //Set<Coach>
 
 }
