@@ -37,9 +37,9 @@ public class Player {
     @Column(name = "contact_number")
     private String contactNumber;
 
-    @NotBlank(message = "Address should not be blank")
-    @Column(name = "address")
-    private String address;
+    @NotBlank(message = "Sex should not be blank")
+    @Column(name = "sex")
+    private String sex;
 
     @OneToMany //(cascade = cascadeType.ALL, mappedBy = "coach")
     private List<Player> players;
