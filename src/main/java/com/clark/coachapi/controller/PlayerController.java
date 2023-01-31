@@ -8,4 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/player")
 public class PlayerController {
+    
+
 }

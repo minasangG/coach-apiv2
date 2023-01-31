@@ -6,8 +6,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class CoachNotFoundException extends Exception{
 
-    public CoachNotFoundException() {
+    public CoachNotFoundException(Long coachId) {
         super("Coach cannot be found");
     }
 
+    public CoachNotFoundException(String message) {
+        super(message);
+    }
 }

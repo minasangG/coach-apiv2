@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class TrainingDataNotFoundException extends Exception {
 
     public TrainingDataNotFoundException (String message) {
-        super(message);
+        super("Training Data cannot be found");
     }
 }
