@@ -1,12 +1,12 @@
 package com.clark.coachapi.service.Implementations;
 
-import com.clark.coachapi.repository.RoutineRepository;
+import com.clark.coachapi.repository.TrainingRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
 @Service
-public class RoutineServiceImplementation {
+public class TrainingServiceImplementation {
 
-    private RoutineRepository routineRepository;
+    private TrainingRepository trainingRepository;
 }

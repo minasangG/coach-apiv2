@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-
 @Service
 public class PlayerServiceImplementation implements PlayerService {
 
@@ -80,7 +79,10 @@ public class PlayerServiceImplementation implements PlayerService {
 
     @Override
     public List<Training> trainingByPlayer(Long playerId) throws PlayerNotFoundException {
-        return null;
+        Player player = playerRepository.findById(playerId)
+                .orElseThrow(() -> new PlayerNotFoundException(playerId));
+
+        return player.getTrainings();
     }
 //    @Override
 //    public void unavailable(String firstName, String lastName) {
