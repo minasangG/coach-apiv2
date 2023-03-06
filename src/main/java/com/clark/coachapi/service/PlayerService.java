@@ -5,7 +5,6 @@ import com.clark.coachapi.entity.Training;
 import com.clark.coachapi.exceptions.PlayerNotFoundException;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface PlayerService {
 
@@ -20,10 +19,6 @@ public interface PlayerService {
     Player update(Long playerId, Player player) throws PlayerNotFoundException;
 
     void delete(Long playerId) throws PlayerNotFoundException;
-
-    //void unavailable(String firstName, String lastName);
-
-    //void available(String firstName, String lastName);
 
     List<Training> trainingByPlayer(Long playerId) throws PlayerNotFoundException;
 

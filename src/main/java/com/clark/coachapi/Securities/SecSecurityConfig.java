@@ -5,5 +5,5 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 
-public class SecSecurityConfig {
+public class SecSecurityConfig{
 }
