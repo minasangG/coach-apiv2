@@ -1,7 +1,7 @@
 # coach-api
  
 <p> This is a sample API project that presents basic CRUD (Create, Read, Update, and Delete) methods and functionalities.
-It also implements HttpStatus Codes to facilitate requests and response between the client and server-side.</p>
+It also implements HttpStatus codes to facilitate requests and response between the client and server-side.</p>
 <p>Entities:</p>
     <ol>
         <li>Coach</li>
